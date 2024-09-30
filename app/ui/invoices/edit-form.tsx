@@ -8,7 +8,6 @@ import { useActionState } from "react";
 
 export default function EditInvoiceForm({
   invoice,
-  customers,
 }: {
   invoice: InvoiceForm;
   customers: CustomerField[];
